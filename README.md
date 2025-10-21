@@ -1,7 +1,15 @@
-# Music-Generation
-This project focuses on automatic music generation using a deep learning approach. Specifically, it uses:
-**Long Short-Term Memory (LSTM) networks** — a type of recurrent neural network (RNN) well-suited for sequence prediction tasks like music, where temporal patterns matter.
-**Dataset:** MAESTRO MIDI dataset, preprocessed into sequences of pitch, step, and duration.
-**Model Architecture:** LSTM-based neural network predicting the next note’s pitch, step, and duration.
-**Music Generation:** After training, the model is used to generate sequences of notes.
-These sequences are converted to MIDI format and saved as audio files
+# AI Music Generation with LSTM
+
+A deep learning project that generates classical music using LSTM neural networks trained on MIDI files from famous composers.
+
+## 🎵 Overview
+
+This project uses TensorFlow and Keras to train an LSTM model on classical music MIDI files, then generates new musical compositions in the style of composers like Chopin, Beethoven, Mozart, Bach, Schubert, Liszt, and Borodin.
+
+## ✨ Features
+
+- **MIDI Processing**: Extracts notes, chords, and rhythms from classical music files
+- **LSTM Model**: Deep learning model trained on musical sequences
+- **Music Generation**: Creates new musical compositions with controllable parameters
+- **Sheet Music Visualization**: Displays generated music as musical notation
+- **MIDI Export**: Saves generated music as playable MIDI files
